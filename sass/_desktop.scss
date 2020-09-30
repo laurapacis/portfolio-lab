@@ -14,15 +14,14 @@
   .nav-bar {
     background-color: #beff7f;
     color: #1100fb;
-    // background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: center;
   }
 
   .nav-bar li {
-    margin: 3rem;
+    margin: 2rem;
     display: inline-block;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .nav-bar a:hover {
@@ -30,8 +29,8 @@
   }
 
   .nav-bar a:active {
-    border-bottom: 0.8rem solid chartreuse;
-    color: chartreuse;
+    border-bottom: 0.5rem solid white;
+    color: white;
     transition: none;
   }
 

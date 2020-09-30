@@ -24,6 +24,10 @@
     font-size: 4rem;
   }
 
+  .nav-bar a:hover {
+    border-bottom: 0.8rem solid #0000ee;
+  }
+
   .nav-bar a:active {
     border-bottom: 0.8rem solid chartreuse;
     color: chartreuse;

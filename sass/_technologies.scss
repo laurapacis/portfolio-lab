@@ -1,0 +1,35 @@
+.technologies {
+  width: 60%;
+  margin: 10% auto;
+  display: block;
+}
+
+.technologies::before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.technologies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.technology-item {
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon-name {
+  text-align: center;
+}
+.text-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}

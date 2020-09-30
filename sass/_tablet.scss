@@ -1,0 +1,68 @@
+@media only screen and (min-width: 900px) and (max-width: 1397px) {
+  // BASE --------------------------
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+  }
+
+  section {
+    margin-top: 7rem;
+    padding-left: 11rem;
+  }
+
+  // NAVIGATION BAR --------------------------
+  .nav-bar {
+    height: 100%;
+    width: 16%;
+  }
+
+  .nav-bar li {
+    margin: 2rem;
+    display: block;
+    font-size: 2.3rem;
+    letter-spacing: -0.3rem;
+  }
+
+  // TECHNOLOGIES -------------------------------
+
+  .technologies-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .technology-item i {
+    padding: 1rem;
+  }
+
+  // PORTFOLIO SECTION -----------------------
+  .portfolio::before {
+    display: block;
+    content: " ";
+    margin-top: -85px;
+    height: 85px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .portfolio-container {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+
+  // CONTACT SECTION -------------------------
+  .contact::before {
+    display: block;
+    content: " ";
+    margin-top: -20px;
+    height: 20px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  // FOOTER -----------------------------
+  footer {
+    width: 16%;
+    left: 0;
+    background: none;
+  }
+}

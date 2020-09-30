@@ -1,0 +1,36 @@
+footer {
+  font-size: 1rem;
+  width: 100%;
+  background-color: #beff7f;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .social-networks {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+footer .icon {
+  padding: 1rem;
+}
+
+footer a:hover {
+  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"),
+    auto !important;
+}
+
+footer a:active {
+  color: white;
+}
+
+footer a:visited {
+  color: #0000ee;
+}
+
+footer .text-footer {
+  color: #0000ee;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}

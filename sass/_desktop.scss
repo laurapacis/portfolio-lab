@@ -1,0 +1,76 @@
+@media only screen and (min-width: 1398px) {
+  // BASE --------------------------------
+  h1 {
+    font-size: 2.5rem;
+    word-spacing: 1rem;
+    line-height: 4rem;
+  }
+
+  section {
+    margin-top: 13rem;
+  }
+
+  // NAVIGATION BAR -------------------------
+  .nav-bar {
+    color: #1100fb;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar li {
+    margin: 3rem;
+    display: inline-block;
+    font-size: 4rem;
+  }
+
+  .nav-bar a:active {
+    border-bottom: 0.8rem solid chartreuse;
+    color: chartreuse;
+    transition: none;
+  }
+
+  // ABOUT SECTION -------------------------------
+  .about-container h1 {
+    width: 60%;
+  }
+
+  // TECHNOLOGIES SECTION -------------------------
+  .technologies {
+    width: 50%;
+  }
+
+  .technologies-container {
+    flex-direction: row;
+  }
+
+  // PORTFOLIO SECTION -------------------------------
+  .portfolio::before {
+    margin-top: -185px;
+    height: 185px;
+  }
+
+  // CONTACT SECTION --------------------------------
+  .contact::before {
+    display: block;
+    content: " ";
+    margin-top: -125px;
+    height: 125px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .btn-submit:active {
+    color: #1100fb;
+    background: chartreuse;
+  }
+
+  // FOOTER ----------------------------------
+  footer {
+    background-color: rgb(127, 255, 0, 0.5);
+  }
+
+  footer .text-footer {
+    font-size: 2rem;
+  }
+}

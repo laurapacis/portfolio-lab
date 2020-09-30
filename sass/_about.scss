@@ -1,0 +1,18 @@
+.about::before {
+  display: block;
+  content: " ";
+  margin-top: -185px;
+  height: 185px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.about div {
+  display: flex;
+  justify-content: center;
+}
+
+.about-container h1 {
+  width: 70%;
+  text-align: justify;
+}

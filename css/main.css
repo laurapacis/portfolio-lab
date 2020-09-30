@@ -1,0 +1,846 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"), auto !important;
+  font-size: 1.6rem;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+input:required,
+textarea {
+  box-shadow: none;
+}
+
+h1 {
+  font-size: 1.9rem;
+  font-weight: lighter;
+  line-height: 2.7rem;
+}
+
+section {
+  margin-top: 15rem;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@keyframes particle-animation-1 {
+  100% {
+    transform: translate3d(71vw, 70vh, 18px);
+  }
+}
+.particle:nth-child(1) {
+  animation: particle-animation-1 60s infinite;
+  opacity: 0.46;
+  height: 7px;
+  width: 7px;
+  animation-delay: -0.2s;
+  transform: translate3d(68vw, 56vh, 4px);
+  background: #a6d926;
+}
+
+@keyframes particle-animation-2 {
+  100% {
+    transform: translate3d(70vw, 3vh, 18px);
+  }
+}
+.particle:nth-child(2) {
+  animation: particle-animation-2 60s infinite;
+  opacity: 0.29;
+  height: 9px;
+  width: 9px;
+  animation-delay: -0.4s;
+  transform: translate3d(46vw, 88vh, 26px);
+  background: #26d962;
+}
+
+@keyframes particle-animation-3 {
+  100% {
+    transform: translate3d(65vw, 57vh, 8px);
+  }
+}
+.particle:nth-child(3) {
+  animation: particle-animation-3 60s infinite;
+  opacity: 0.27;
+  height: 7px;
+  width: 7px;
+  animation-delay: -0.6s;
+  transform: translate3d(76vw, 15vh, 1px);
+  background: #d94126;
+}
+
+@keyframes particle-animation-4 {
+  100% {
+    transform: translate3d(69vw, 35vh, 51px);
+  }
+}
+.particle:nth-child(4) {
+  animation: particle-animation-4 60s infinite;
+  opacity: 0.55;
+  height: 9px;
+  width: 9px;
+  animation-delay: -0.8s;
+  transform: translate3d(81vw, 13vh, 52px);
+  background: #26d9d0;
+}
+
+@keyframes particle-animation-5 {
+  100% {
+    transform: translate3d(6vw, 40vh, 14px);
+  }
+}
+.particle:nth-child(5) {
+  animation: particle-animation-5 60s infinite;
+  opacity: 0.67;
+  height: 7px;
+  width: 7px;
+  animation-delay: -1s;
+  transform: translate3d(88vw, 80vh, 1px);
+  background: #2685d9;
+}
+
+@keyframes particle-animation-6 {
+  100% {
+    transform: translate3d(65vw, 10vh, 70px);
+  }
+}
+.particle:nth-child(6) {
+  animation: particle-animation-6 60s infinite;
+  opacity: 0.53;
+  height: 9px;
+  width: 9px;
+  animation-delay: -1.2s;
+  transform: translate3d(46vw, 5vh, 30px);
+  background: #b526d9;
+}
+
+@keyframes particle-animation-7 {
+  100% {
+    transform: translate3d(24vw, 64vh, 17px);
+  }
+}
+.particle:nth-child(7) {
+  animation: particle-animation-7 60s infinite;
+  opacity: 0.09;
+  height: 6px;
+  width: 6px;
+  animation-delay: -1.4s;
+  transform: translate3d(80vw, 3vh, 34px);
+  background: #32d926;
+}
+
+@keyframes particle-animation-8 {
+  100% {
+    transform: translate3d(41vw, 43vh, 1px);
+  }
+}
+.particle:nth-child(8) {
+  animation: particle-animation-8 60s infinite;
+  opacity: 0.23;
+  height: 8px;
+  width: 8px;
+  animation-delay: -1.6s;
+  transform: translate3d(85vw, 86vh, 98px);
+  background: #2668d9;
+}
+
+@keyframes particle-animation-9 {
+  100% {
+    transform: translate3d(79vw, 75vh, 85px);
+  }
+}
+.particle:nth-child(9) {
+  animation: particle-animation-9 60s infinite;
+  opacity: 0.7;
+  height: 7px;
+  width: 7px;
+  animation-delay: -1.8s;
+  transform: translate3d(36vw, 4vh, 30px);
+  background: #ca26d9;
+}
+
+@keyframes particle-animation-10 {
+  100% {
+    transform: translate3d(6vw, 55vh, 94px);
+  }
+}
+.particle:nth-child(10) {
+  animation: particle-animation-10 60s infinite;
+  opacity: 0.11;
+  height: 10px;
+  width: 10px;
+  animation-delay: -2s;
+  transform: translate3d(89vw, 28vh, 29px);
+  background: #26d953;
+}
+
+@keyframes particle-animation-11 {
+  100% {
+    transform: translate3d(29vw, 51vh, 45px);
+  }
+}
+.particle:nth-child(11) {
+  animation: particle-animation-11 60s infinite;
+  opacity: 0.48;
+  height: 6px;
+  width: 6px;
+  animation-delay: -2.2s;
+  transform: translate3d(28vw, 87vh, 34px);
+  background: #26d9d0;
+}
+
+@keyframes particle-animation-12 {
+  100% {
+    transform: translate3d(7vw, 74vh, 25px);
+  }
+}
+.particle:nth-child(12) {
+  animation: particle-animation-12 60s infinite;
+  opacity: 0.27;
+  height: 10px;
+  width: 10px;
+  animation-delay: -2.4s;
+  transform: translate3d(72vw, 73vh, 16px);
+  background: #3226d9;
+}
+
+@keyframes particle-animation-13 {
+  100% {
+    transform: translate3d(51vw, 12vh, 82px);
+  }
+}
+.particle:nth-child(13) {
+  animation: particle-animation-13 60s infinite;
+  opacity: 0.74;
+  height: 10px;
+  width: 10px;
+  animation-delay: -2.6s;
+  transform: translate3d(72vw, 14vh, 45px);
+  background: #2653d9;
+}
+
+@keyframes particle-animation-14 {
+  100% {
+    transform: translate3d(59vw, 39vh, 99px);
+  }
+}
+.particle:nth-child(14) {
+  animation: particle-animation-14 60s infinite;
+  opacity: 0.85;
+  height: 10px;
+  width: 10px;
+  animation-delay: -2.8s;
+  transform: translate3d(76vw, 74vh, 54px);
+  background: #26bbd9;
+}
+
+@keyframes particle-animation-15 {
+  100% {
+    transform: translate3d(12vw, 57vh, 53px);
+  }
+}
+.particle:nth-child(15) {
+  animation: particle-animation-15 60s infinite;
+  opacity: 0.05;
+  height: 10px;
+  width: 10px;
+  animation-delay: -3s;
+  transform: translate3d(69vw, 24vh, 13px);
+  background: #d97426;
+}
+
+@keyframes particle-animation-16 {
+  100% {
+    transform: translate3d(11vw, 72vh, 66px);
+  }
+}
+.particle:nth-child(16) {
+  animation: particle-animation-16 60s infinite;
+  opacity: 0.2;
+  height: 6px;
+  width: 6px;
+  animation-delay: -3.2s;
+  transform: translate3d(25vw, 75vh, 39px);
+  background: #2688d9;
+}
+
+@keyframes particle-animation-17 {
+  100% {
+    transform: translate3d(47vw, 53vh, 37px);
+  }
+}
+.particle:nth-child(17) {
+  animation: particle-animation-17 60s infinite;
+  opacity: 0.53;
+  height: 7px;
+  width: 7px;
+  animation-delay: -3.4s;
+  transform: translate3d(61vw, 28vh, 11px);
+  background: #50d926;
+}
+
+@keyframes particle-animation-18 {
+  100% {
+    transform: translate3d(83vw, 47vh, 40px);
+  }
+}
+.particle:nth-child(18) {
+  animation: particle-animation-18 60s infinite;
+  opacity: 0.79;
+  height: 9px;
+  width: 9px;
+  animation-delay: -3.6s;
+  transform: translate3d(45vw, 83vh, 30px);
+  background: #d926d3;
+}
+
+@keyframes particle-animation-19 {
+  100% {
+    transform: translate3d(6vw, 86vh, 62px);
+  }
+}
+.particle:nth-child(19) {
+  animation: particle-animation-19 60s infinite;
+  opacity: 0.43;
+  height: 8px;
+  width: 8px;
+  animation-delay: -3.8s;
+  transform: translate3d(30vw, 70vh, 90px);
+  background: #d9264d;
+}
+
+@keyframes particle-animation-20 {
+  100% {
+    transform: translate3d(33vw, 64vh, 31px);
+  }
+}
+.particle:nth-child(20) {
+  animation: particle-animation-20 60s infinite;
+  opacity: 0.25;
+  height: 9px;
+  width: 9px;
+  animation-delay: -4s;
+  transform: translate3d(43vw, 25vh, 33px);
+  background: #3bd926;
+}
+
+@keyframes particle-animation-21 {
+  100% {
+    transform: translate3d(23vw, 27vh, 57px);
+  }
+}
+.particle:nth-child(21) {
+  animation: particle-animation-21 60s infinite;
+  opacity: 0.79;
+  height: 8px;
+  width: 8px;
+  animation-delay: -4.2s;
+  transform: translate3d(34vw, 47vh, 3px);
+  background: #26d93e;
+}
+
+@keyframes particle-animation-22 {
+  100% {
+    transform: translate3d(52vw, 10vh, 2px);
+  }
+}
+.particle:nth-child(22) {
+  animation: particle-animation-22 60s infinite;
+  opacity: 0.43;
+  height: 10px;
+  width: 10px;
+  animation-delay: -4.4s;
+  transform: translate3d(12vw, 79vh, 57px);
+  background: #26b5d9;
+}
+
+@keyframes particle-animation-23 {
+  100% {
+    transform: translate3d(49vw, 35vh, 23px);
+  }
+}
+.particle:nth-child(23) {
+  animation: particle-animation-23 60s infinite;
+  opacity: 0.98;
+  height: 6px;
+  width: 6px;
+  animation-delay: -4.6s;
+  transform: translate3d(90vw, 78vh, 29px);
+  background: #d9d626;
+}
+
+@keyframes particle-animation-24 {
+  100% {
+    transform: translate3d(41vw, 40vh, 86px);
+  }
+}
+.particle:nth-child(24) {
+  animation: particle-animation-24 60s infinite;
+  opacity: 0.39;
+  height: 9px;
+  width: 9px;
+  animation-delay: -4.8s;
+  transform: translate3d(80vw, 3vh, 17px);
+  background: #26d9d9;
+}
+
+@keyframes particle-animation-25 {
+  100% {
+    transform: translate3d(55vw, 72vh, 36px);
+  }
+}
+.particle:nth-child(25) {
+  animation: particle-animation-25 60s infinite;
+  opacity: 0.1;
+  height: 7px;
+  width: 7px;
+  animation-delay: -5s;
+  transform: translate3d(13vw, 7vh, 37px);
+  background: #d9268e;
+}
+
+@keyframes particle-animation-26 {
+  100% {
+    transform: translate3d(28vw, 80vh, 91px);
+  }
+}
+.particle:nth-child(26) {
+  animation: particle-animation-26 60s infinite;
+  opacity: 0.69;
+  height: 10px;
+  width: 10px;
+  animation-delay: -5.2s;
+  transform: translate3d(10vw, 82vh, 31px);
+  background: #d9264a;
+}
+
+@keyframes particle-animation-27 {
+  100% {
+    transform: translate3d(79vw, 29vh, 25px);
+  }
+}
+.particle:nth-child(27) {
+  animation: particle-animation-27 60s infinite;
+  opacity: 0.59;
+  height: 6px;
+  width: 6px;
+  animation-delay: -5.4s;
+  transform: translate3d(11vw, 25vh, 56px);
+  background: #3526d9;
+}
+
+@keyframes particle-animation-28 {
+  100% {
+    transform: translate3d(56vw, 56vh, 4px);
+  }
+}
+.particle:nth-child(28) {
+  animation: particle-animation-28 60s infinite;
+  opacity: 0.88;
+  height: 6px;
+  width: 6px;
+  animation-delay: -5.6s;
+  transform: translate3d(39vw, 5vh, 57px);
+  background: #26a3d9;
+}
+
+@keyframes particle-animation-29 {
+  100% {
+    transform: translate3d(24vw, 34vh, 35px);
+  }
+}
+.particle:nth-child(29) {
+  animation: particle-animation-29 60s infinite;
+  opacity: 0.07;
+  height: 7px;
+  width: 7px;
+  animation-delay: -5.8s;
+  transform: translate3d(46vw, 77vh, 17px);
+  background: #d92647;
+}
+
+@keyframes particle-animation-30 {
+  100% {
+    transform: translate3d(61vw, 48vh, 69px);
+  }
+}
+.particle:nth-child(30) {
+  animation: particle-animation-30 60s infinite;
+  opacity: 0.42;
+  height: 8px;
+  width: 8px;
+  animation-delay: -6s;
+  transform: translate3d(85vw, 46vh, 9px);
+  background: #35d926;
+}
+
+.nav-bar {
+  background-color: rgba(127, 255, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar li {
+  color: #0000ee;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.nav-bar a {
+  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"), auto !important;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  border-bottom: 0.5rem solid #0000ee;
+  transition: 0.3s;
+}
+
+.nav-bar a:active {
+  border-bottom: 0.5rem solid white;
+  color: white;
+  transition: none;
+}
+
+.nav-bar a:visited {
+  color: #0000ee;
+}
+
+.about::before {
+  display: block;
+  content: " ";
+  margin-top: -185px;
+  height: 185px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.about div {
+  display: flex;
+  justify-content: center;
+}
+
+.about-container h1 {
+  width: 70%;
+  text-align: justify;
+}
+
+.technologies {
+  width: 60%;
+  margin: 10% auto;
+  display: block;
+}
+
+.technologies::before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.technologies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.technology-item {
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon-name {
+  text-align: center;
+}
+
+.text-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.portfolio {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.portfolio::before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  row-gap: 4rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.portfolio-container a:hover {
+  cursor: crosshair;
+}
+
+.contact::before {
+  display: block;
+  content: " ";
+  margin-top: -150px;
+  height: 150px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20rem;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+form h1 {
+  margin-bottom: 1rem;
+}
+
+.form-item {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #1100fb;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: chartreuse;
+}
+
+textarea {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+.btn-submit {
+  background: #1100fb;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  height: 4rem;
+  width: 7rem;
+  font-size: 2rem;
+}
+
+.btn-submit:hover {
+  height: 4.4rem;
+  width: 7.4rem;
+  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"), auto !important;
+}
+
+.btn-submit:active {
+  color: #1100fb;
+  background: chartreuse;
+}
+
+footer {
+  font-size: 1rem;
+  width: 100%;
+  background-color: #beff7f;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .social-networks {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+footer .icon {
+  padding: 1rem;
+}
+
+footer a:hover {
+  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"), auto !important;
+}
+
+footer a:active {
+  color: white;
+}
+
+footer a:visited {
+  color: #0000ee;
+}
+
+footer .text-footer {
+  color: #0000ee;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1397px) {
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+  }
+
+  section {
+    margin-top: 7rem;
+    padding-left: 11rem;
+  }
+
+  .nav-bar {
+    height: 100%;
+    width: 16%;
+  }
+
+  .nav-bar li {
+    margin: 2rem;
+    display: block;
+    font-size: 2.3rem;
+    letter-spacing: -0.3rem;
+  }
+
+  .technologies-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .technology-item i {
+    padding: 1rem;
+  }
+
+  .portfolio::before {
+    display: block;
+    content: " ";
+    margin-top: -85px;
+    height: 85px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .portfolio-container {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+
+  .contact::before {
+    display: block;
+    content: " ";
+    margin-top: -20px;
+    height: 20px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  footer {
+    width: 16%;
+    left: 0;
+    background: none;
+  }
+}
+@media only screen and (min-width: 1398px) {
+  h1 {
+    font-size: 2.5rem;
+    word-spacing: 1rem;
+    line-height: 4rem;
+  }
+
+  section {
+    margin-top: 13rem;
+  }
+
+  .nav-bar {
+    color: #1100fb;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-bar li {
+    margin: 3rem;
+    display: inline-block;
+    font-size: 4rem;
+  }
+
+  .nav-bar a:active {
+    border-bottom: 0.8rem solid chartreuse;
+    color: chartreuse;
+    transition: none;
+  }
+
+  .about-container h1 {
+    width: 60%;
+  }
+
+  .technologies {
+    width: 50%;
+  }
+
+  .technologies-container {
+    flex-direction: row;
+  }
+
+  .portfolio::before {
+    margin-top: -185px;
+    height: 185px;
+  }
+
+  .contact::before {
+    display: block;
+    content: " ";
+    margin-top: -125px;
+    height: 125px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .btn-submit:active {
+    color: #1100fb;
+    background: chartreuse;
+  }
+
+  footer {
+    background-color: rgba(127, 255, 0, 0.5);
+  }
+
+  footer .text-footer {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

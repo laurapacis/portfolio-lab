@@ -1,37 +1,37 @@
 .nav-bar {
-  background-color: rgb(127, 255, 0, 0.5);
+  background-color: $trans-green;
   width: 100%;
   position: fixed;
   top: 0;
-}
 
-.nav-bar li {
-  color: #0000ee;
-  margin: 0.5rem;
-  display: flex;
-  justify-content: center;
-  font-size: 2rem;
-  font-weight: bolder;
-  text-align: center;
-}
+  & li {
+    color: $electric-blue;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+  }
 
-.nav-bar a {
-  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"),
-    auto !important;
-  text-decoration: none;
-}
+  & a {
+    cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"),
+      auto !important;
+    text-decoration: none;
+  }
 
-.nav-bar a:hover {
-  border-bottom: 0.5rem solid #0000ee;
-  transition: 0.3s;
-}
+  & a:hover {
+    border-bottom: 0.5rem solid $electric-blue;
+    transition: 0.3s;
+  }
 
-.nav-bar a:active {
-  border-bottom: 0.5rem solid white;
-  color: white;
-  transition: none;
-}
+  & a:active {
+    border-bottom: 0.5rem solid $polar-white;
+    color: $polar-white;
+    transition: none;
+  }
 
-.nav-bar a:visited {
-  color: #0000ee;
+  & a:visited {
+    color: $electric-blue;
+  }
 }

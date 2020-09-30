@@ -1,23 +1,23 @@
 .portfolio {
   width: 90%;
   margin: 5% auto;
-}
 
-.portfolio::before {
-  display: block;
-  content: " ";
-  margin-top: -150px;
-  height: 150px;
-  visibility: hidden;
-  pointer-events: none;
-}
+  &::before {
+    display: block;
+    content: " ";
+    margin-top: -150px;
+    height: 150px;
+    visibility: hidden;
+    pointer-events: none;
+  }
 
-.portfolio-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  row-gap: 4rem;
-  justify-items: center;
-  align-items: center;
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    row-gap: 4rem;
+    justify-items: center;
+    align-items: center;
+  }
 }
 
 .portfolio-container a:hover {

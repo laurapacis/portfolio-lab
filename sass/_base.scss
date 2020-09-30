@@ -12,8 +12,8 @@ body {
   cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"),
     auto !important;
   font-size: 1.6rem;
-  font-family: Open Sans, sans-serif;
-  background: rgb(255, 255, 255);
+  font-family: $main-font;
+  background: $polar-white;
 }
 
 input:required,
@@ -22,7 +22,7 @@ textarea {
 }
 
 h1 {
-  color: black;
+  color: $black;
   font-size: 1.9rem;
   font-weight: lighter;
   line-height: 2.7rem;

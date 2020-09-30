@@ -12,26 +12,26 @@
 
   // NAVIGATION BAR -------------------------
   .nav-bar {
-    background-color: #beff7f;
-    color: #1100fb;
+    background-color: $solid-green;
+    color: $electric-blue;
     display: flex;
     justify-content: center;
-  }
 
-  .nav-bar li {
-    margin: 2rem;
-    display: inline-block;
-    font-size: 3rem;
-  }
+    & li {
+      margin: 2rem;
+      display: inline-block;
+      font-size: 3rem;
+    }
 
-  .nav-bar a:hover {
-    border-bottom: 0.8rem solid #0000ee;
-  }
+    & a:hover {
+      border-bottom: 0.8rem solid $electric-blue;
+    }
 
-  .nav-bar a:active {
-    border-bottom: 0.5rem solid white;
-    color: white;
-    transition: none;
+    & a:active {
+      border-bottom: 0.5rem solid $polar-white;
+      color: white;
+      transition: none;
+    }
   }
 
   // ABOUT SECTION -------------------------------
@@ -42,10 +42,10 @@
   // TECHNOLOGIES SECTION -------------------------
   .technologies {
     width: 50%;
-  }
 
-  .technologies-container {
-    flex-direction: row;
+    &-container {
+      flex-direction: row;
+    }
   }
 
   // PORTFOLIO SECTION -------------------------------
@@ -65,16 +65,16 @@
   }
 
   .btn-submit:active {
-    color: #1100fb;
+    color: $electric-blue;
     background: chartreuse;
   }
 
   // FOOTER ----------------------------------
   footer {
-    background-color: rgb(127, 255, 0, 0.5);
-  }
+    background-color: $trans-green;
 
-  footer .text-footer {
-    font-size: 2rem;
+    & .text-footer {
+      font-size: 2rem;
+    }
   }
 }

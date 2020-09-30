@@ -12,8 +12,9 @@
 
   // NAVIGATION BAR -------------------------
   .nav-bar {
+    background-color: #beff7f;
     color: #1100fb;
-    background-color: rgba(255, 255, 255, 0.6);
+    // background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: center;
   }
@@ -50,8 +51,8 @@
 
   // PORTFOLIO SECTION -------------------------------
   .portfolio::before {
-    margin-top: -185px;
-    height: 185px;
+    margin-top: -155px;
+    height: 155px;
   }
 
   // CONTACT SECTION --------------------------------

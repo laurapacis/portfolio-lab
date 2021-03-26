@@ -64,6 +64,12 @@
     pointer-events: none;
   }
 
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%;
+  }
+
   .btn-submit:active {
     color: $electric-blue;
     background: chartreuse;
